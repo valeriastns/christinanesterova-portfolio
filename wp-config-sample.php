@@ -20,13 +20,13 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define( 'DB_NAME', 'wordpress' );
+define( 'DB_NAME', 'database_name_here' );
 
 /** Имя пользователя MySQL */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'username_here' );
 
 /** Пароль к базе данных MySQL */
-define( 'DB_PASSWORD', 'piknik228' );
+define( 'DB_PASSWORD', 'password_here' );
 
 /** Имя сервера MySQL */
 define( 'DB_HOST', 'localhost' );
@@ -76,7 +76,7 @@ $table_prefix = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define( 'WP_DEBUG', true );
+define( 'WP_DEBUG', false );
 
 /* Это всё, дальше не редактируем. Успехов! */
 
