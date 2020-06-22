@@ -1,0 +1,25 @@
+/*
+Theme Name:  ChrisPhoto theme. Child for Twenty Nineteen.
+Theme URI:  https://rachelmccollin.com
+Description:  Chris portfolio theme
+Author:  TheValery
+Textdomain:  chrisphoto
+Author URI:  https://rachelmccollin.com/
+Template:  twentyseventeen
+Version:  1.0
+License:  TheValery super license!
+License URI: https://www.gnu.org/licenses/gpl-2.0.html                 
+*/
+
+.page .panel-content .entry-title {
+    display: none;
+    color: red;
+}
+
+.wrap {
+    max-width: 100%;
+}
+
+.page.page-one-column:not(.twentyseventeen-front-page) #primary {
+    max-width: 100%;
+}
