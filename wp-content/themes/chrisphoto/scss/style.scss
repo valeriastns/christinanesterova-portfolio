@@ -11,9 +11,12 @@ License:  TheValery super license!
 License URI: https://www.gnu.org/licenses/gpl-2.0.html                 
 */
 
+@import "compass";
+@import "compass/reset";
+
+
 .page .panel-content .entry-title {
     display: none;
-    color: red;
 }
 
 .wrap {
@@ -22,4 +25,23 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 .page.page-one-column:not(.twentyseventeen-front-page) #primary {
     max-width: 100%;
+}
+
+
+@media screen and (min-width: 48em) {
+    .wrap {
+        max-width: 100%;
+    }
+    .site-branding {
+        display:none;
+    }
+}
+
+@media screen and (min-width: 30em) {
+    .page-one-column .panel-content .wrap {
+        max-width: 100%;
+    }
+    .site-branding {
+        display:none;
+    }
 }
