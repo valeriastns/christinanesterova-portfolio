@@ -1,0 +1,82 @@
+@media screen and (min-width: 48em) {
+    #masthead .wrap {
+        max-width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .site-header {
+        background-color: #fff;
+    }
+
+    .admin-bar .site-navigation-fixed.navigation-top {
+        top: 30px;
+    }
+
+    .main-navigation a {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 11px;
+    }
+
+    body:not(.twentyseventeen-front-page) .entry-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .wp-image-93 {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+    }
+
+    .has-text-align-left {
+        max-width: 400px;
+        font-weight: 100;
+        letter-spacing: 2px !important;
+        font-size: 16px;
+    }
+
+    div.wpforms-container-full {
+        margin: 0;
+    }
+
+    div.wpforms-container-full .wpforms-form .wpforms-field-label {
+        font-weight: 100;
+        letter-spacing: 2px !important;
+        text-transform: uppercase;
+    }
+
+    div.wpforms-container-full .wpforms-form input[type=text],
+    div.wpforms-container-full .wpforms-form input[type=email],
+    div.wpforms-container-full .wpforms-form textarea {
+        background: #fafafa;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    div.wpforms-container-full .wpforms-form button[type=submit] {
+        color: #ffff;
+        background-color: #272727;
+        font-weight: 300;
+        text-transform: uppercase;
+        min-width: 150px;
+    }
+
+    .site-footer .widget-column.footer-widget-2 {
+        float: right;
+        width: 54%;
+    }
+}
+
+@media screen and (min-width: 30em) {
+    .page-one-column .panel-content .wrap {
+        max-width: 100%;
+    }
+
+    body:not(.portfolio_main) .site-branding {
+         display: none;
+    }
+}

@@ -1,0 +1,49 @@
+.page .panel-content .entry-title {
+    display: none;
+}
+
+body.page:not(.twentyseventeen-front-page) .entry-title {
+    display: none;
+}
+
+.site-navigation-fixed.navigation-top {
+    position: static;
+}
+
+body:not(.portfolio_main) .site-branding {
+     display: none;
+}
+
+.wrap {
+    max-width: 100%;
+}
+
+.page.page-one-column:not(.twentyseventeen-front-page) #primary {
+    max-width: 100%;
+}
+
+.navigation-top {
+    border: none;
+}
+
+.widget a,
+.site-footer .widget-area a {
+    box-shadow: none;
+
+    &:hover {
+        box-shadow: none;
+    }
+}
+
+.widget a,
+.site-footer .widget-area a img {
+    box-shadow: none;
+
+    &:hover {
+        box-shadow: none;
+    }
+}
+
+.site-footer .widget-area {
+    padding: 0em;
+}

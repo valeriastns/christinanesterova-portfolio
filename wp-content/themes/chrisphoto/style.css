@@ -75,40 +75,195 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 18, scss/style.scss */
-.page .panel-content .entry-title {
-  display: none;
-}
-
-/* line 22, scss/style.scss */
-.wrap {
-  max-width: 100%;
-}
-
-/* line 26, scss/style.scss */
-.page.page-one-column:not(.twentyseventeen-front-page) #primary {
-  max-width: 100%;
-}
-
 @media screen and (min-width: 48em) {
-  /* line 32, scss/style.scss */
-  .wrap {
+  /* line 2, scss/_media.scss */
+  #masthead .wrap {
     max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
 
-  /* line 35, scss/style.scss */
-  .site-branding {
-    display: none;
+  /* line 9, scss/_media.scss */
+  .site-header {
+    background-color: #fff;
+  }
+
+  /* line 13, scss/_media.scss */
+  .admin-bar .site-navigation-fixed.navigation-top {
+    top: 30px;
+  }
+
+  /* line 17, scss/_media.scss */
+  .main-navigation a {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+  }
+
+  /* line 23, scss/_media.scss */
+  body:not(.twentyseventeen-front-page) .entry-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* line 29, scss/_media.scss */
+  .wp-image-93 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+  }
+
+  /* line 35, scss/_media.scss */
+  .has-text-align-left {
+    max-width: 400px;
+    font-weight: 100;
+    letter-spacing: 2px !important;
+    font-size: 16px;
+  }
+
+  /* line 42, scss/_media.scss */
+  div.wpforms-container-full {
+    margin: 0;
+  }
+
+  /* line 46, scss/_media.scss */
+  div.wpforms-container-full .wpforms-form .wpforms-field-label {
+    font-weight: 100;
+    letter-spacing: 2px !important;
+    text-transform: uppercase;
+  }
+
+  /* line 52, scss/_media.scss */
+  div.wpforms-container-full .wpforms-form input[type=text],
+  div.wpforms-container-full .wpforms-form input[type=email],
+  div.wpforms-container-full .wpforms-form textarea {
+    background: #fafafa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  /* line 60, scss/_media.scss */
+  div.wpforms-container-full .wpforms-form button[type=submit] {
+    color: #ffff;
+    background-color: #272727;
+    font-weight: 300;
+    text-transform: uppercase;
+    min-width: 150px;
+  }
+
+  /* line 68, scss/_media.scss */
+  .site-footer .widget-column.footer-widget-2 {
+    float: right;
+    width: 54%;
   }
 }
 @media screen and (min-width: 30em) {
-  /* line 41, scss/style.scss */
+  /* line 75, scss/_media.scss */
   .page-one-column .panel-content .wrap {
     max-width: 100%;
   }
 
-  /* line 44, scss/style.scss */
-  .site-branding {
+  /* line 79, scss/_media.scss */
+  body:not(.portfolio_main) .site-branding {
     display: none;
   }
+}
+/* line 1, scss/_general.scss */
+.page .panel-content .entry-title {
+  display: none;
+}
+
+/* line 5, scss/_general.scss */
+body.page:not(.twentyseventeen-front-page) .entry-title {
+  display: none;
+}
+
+/* line 9, scss/_general.scss */
+.site-navigation-fixed.navigation-top {
+  position: static;
+}
+
+/* line 13, scss/_general.scss */
+body:not(.portfolio_main) .site-branding {
+  display: none;
+}
+
+/* line 17, scss/_general.scss */
+.wrap {
+  max-width: 100%;
+}
+
+/* line 21, scss/_general.scss */
+.page.page-one-column:not(.twentyseventeen-front-page) #primary {
+  max-width: 100%;
+}
+
+/* line 25, scss/_general.scss */
+.navigation-top {
+  border: none;
+}
+
+/* line 29, scss/_general.scss */
+.widget a,
+.site-footer .widget-area a {
+  box-shadow: none;
+}
+/* line 33, scss/_general.scss */
+.widget a:hover,
+.site-footer .widget-area a:hover {
+  box-shadow: none;
+}
+
+/* line 38, scss/_general.scss */
+.widget a,
+.site-footer .widget-area a img {
+  box-shadow: none;
+}
+/* line 42, scss/_general.scss */
+.widget a:hover,
+.site-footer .widget-area a img:hover {
+  box-shadow: none;
+}
+
+/* line 47, scss/_general.scss */
+.site-footer .widget-area {
+  padding: 0em;
+}
+
+@font-face {
+  font-family: 'TT Norms';
+  src: url("../fonts/TTNorms-Thin.eot");
+  src: url("../fonts/TTNorms-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/TTNorms-Thin.woff") format("woff"), url("../fonts/TTNorms-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Norms';
+  src: url("../fonts/TTNorms-ExtraLight.eot");
+  src: url("../fonts/TTNorms-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/TTNorms-ExtraLight.woff") format("woff"), url("../fonts/TTNorms-ExtraLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Norms';
+  src: url("../fonts/TTNorms-Regular.eot");
+  src: url("../fonts/TTNorms-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TTNorms-Regular.woff") format("woff"), url("../fonts/TTNorms-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Norms';
+  src: url("../fonts/TTNorms-Medium.eot");
+  src: url("../fonts/TTNorms-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/TTNorms-Medium.woff") format("woff"), url("../fonts/TTNorms-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Slab 900';
+  src: url("../fonts/MuseoSlab-900.eot");
+  src: url("../fonts/MuseoSlab-900.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSlab-900.woff") format("woff"), url("../fonts/MuseoSlab-900.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }

@@ -39,7 +39,7 @@
 					<?php
 				endif;
 
-				get_template_part( 'template-parts/footer/site', 'info' );
+				get_template_part( 'template-parts/footer/site', 'none' );
 				?>
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->
