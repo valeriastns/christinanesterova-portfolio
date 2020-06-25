@@ -11,7 +11,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 }
 
 body:not(.portfolio_main) .site-branding {
-     display: none;
+    display: none;
 }
 
 .wrap {
@@ -46,4 +46,30 @@ body:not(.portfolio_main) .site-branding {
 
 .site-footer .widget-area {
     padding: 0em;
+}
+
+div.wpforms-container-full {
+    margin: 0;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+    font-weight: 100;
+    letter-spacing: 2px !important;
+    text-transform: uppercase;
+}
+
+div.wpforms-container-full .wpforms-form input[type=text],
+div.wpforms-container-full .wpforms-form input[type=email],
+div.wpforms-container-full .wpforms-form textarea {
+    background: #fafafa;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+    color: #ffff;
+    background-color: #272727;
+    font-weight: 300;
+    text-transform: uppercase;
+    min-width: 150px;
 }
