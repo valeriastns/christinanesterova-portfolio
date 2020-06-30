@@ -1,4 +1,35 @@
-@media screen and (min-width: 30em) {
+/* styles for browsers larger than 20em; */
+@media screen and (max-width: 320px) {
+
+    .custom-logo-link img {
+        display: none;
+    }
+
+    body:not(.title-tagline-hidden) .site-branding-text {
+        text-align: center;
+    }
+
+    .js .menu-toggle {
+        outline: none;
+    }
+
+    :not(.mejs-button)>button:hover,
+    :not(.mejs-button)>button:focus {
+        background: none;
+        outline: none;
+    }
+
+    body.about-content .entry-content p {
+        text-align: center;
+    }
+
+    .wp-image-93 {
+        display: none;
+    }
+}
+
+/* styles for browsers larger than 30em; */
+@media screen and (max-width: 576px) {
     .page-one-column .panel-content .wrap {
         max-width: 100%;
     }
@@ -7,15 +38,7 @@
         display: none;
     }
 
-    .js .menu-toggle {
-        text-transform: uppercase;
-        font-weight: 900;
-        outline: 1px solid;
-    }
 
-    .navigation-top a {
-        font-weight: 300;
-    }
 
     body.about-content .entry-content {
         display: flex;
@@ -23,83 +46,17 @@
         justify-content: center;
     }
 
-    :not(.mejs-button)>button:hover,
-    :not(.mejs-button)>button:focus {
-        background: none;
-        outline: 1px solid;
-    }
-
-    body.about-content .entry-content p {
-        margin-top: 50px;
-        font-weight: 300;
-    }
-
     .site-branding {
         text-align: center;
     }
 
-    .js .main-navigation.toggled-on>div>ul {
-        text-align: center;
-    }
     .wp-image-93 {
         display: none;
     }
 
 }
 
-@media screen and (min-width: 48em) {
-    #masthead .wrap {
-        max-width: 100%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-    }
+/* styles for browsers larger than 48em; */
+@media screen and (max-width: 768px) {
 
-    .site-header {
-        background-color: #fff;
-    }
-
-    .admin-bar .site-navigation-fixed.navigation-top {
-        top: 30px;
-    }
-
-    .main-navigation a {
-        text-transform: uppercase;
-        font-weight: 400;
-        font-size: 11px;
-    }
-
-    body:not(.twentyseventeen-front-page) .entry-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .wp-image-93 {
-        width: 300px;
-        height: 300px;
-        border-radius: 100%;
-    }
-
-    body.about-content .entry-content {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .has-text-align-left {
-        max-width: 300px;
-        font-weight: 100;
-        letter-spacing: 2px !important;
-        font-size: 16px;
-    }
-
-    .site-footer .widget-column.footer-widget-2 {
-        float: right;
-        width: 54%;
-    }
-
-    .socialmedia-buttons.smw_center {
-        text-align-last: left;
-    }
 }

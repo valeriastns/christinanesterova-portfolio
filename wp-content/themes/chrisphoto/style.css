@@ -75,205 +75,133 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-@media screen and (min-width: 30em) {
-  /* line 2, scss/_media.scss */
-  .page-one-column .panel-content .wrap {
-    max-width: 100%;
-  }
-
-  /* line 6, scss/_media.scss */
-  body:not(.portfolio_main) .site-branding {
-    display: none;
-  }
-
-  /* line 10, scss/_media.scss */
-  .js .menu-toggle {
-    text-transform: uppercase;
-    font-weight: 900;
-    outline: 1px solid;
-  }
-
-  /* line 16, scss/_media.scss */
-  .navigation-top a {
-    font-weight: 300;
-  }
-
-  /* line 20, scss/_media.scss */
-  body.about-content .entry-content {
-    display: flex;
-    flex-flow: wrap-reverse;
-    justify-content: center;
-  }
-
-  /* line 26, scss/_media.scss */
-  :not(.mejs-button) > button:hover,
-  :not(.mejs-button) > button:focus {
-    background: none;
-    outline: 1px solid;
-  }
-
-  /* line 32, scss/_media.scss */
-  body.about-content .entry-content p {
-    margin-top: 50px;
-    font-weight: 300;
-  }
-
-  /* line 37, scss/_media.scss */
-  .site-branding {
-    text-align: center;
-  }
-
-  /* line 41, scss/_media.scss */
-  .js .main-navigation.toggled-on > div > ul {
-    text-align: center;
-  }
-
-  /* line 44, scss/_media.scss */
-  .wp-image-93 {
-    display: none;
-  }
+@font-face {
+  font-family: 'Cera Pro';
+  src: url("./fonts/CeraPro-Thin.eot");
+  src: url("./fonts/CeraPro-Thin.eot?#iefix") format("embedded-opentype"), url("./fonts/CeraPro-Thin.woff") format("woff"), url("./fonts/CeraPro-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
 }
-@media screen and (min-width: 48em) {
-  /* line 51, scss/_media.scss */
-  #masthead .wrap {
-    max-width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
-  /* line 58, scss/_media.scss */
-  .site-header {
-    background-color: #fff;
-  }
-
-  /* line 62, scss/_media.scss */
-  .admin-bar .site-navigation-fixed.navigation-top {
-    top: 30px;
-  }
-
-  /* line 66, scss/_media.scss */
-  .main-navigation a {
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 11px;
-  }
-
-  /* line 72, scss/_media.scss */
-  body:not(.twentyseventeen-front-page) .entry-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  /* line 78, scss/_media.scss */
-  .wp-image-93 {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-  }
-
-  /* line 84, scss/_media.scss */
-  body.about-content .entry-content {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-
-  /* line 90, scss/_media.scss */
-  .has-text-align-left {
-    max-width: 300px;
-    font-weight: 100;
-    letter-spacing: 2px !important;
-    font-size: 16px;
-  }
-
-  /* line 97, scss/_media.scss */
-  .site-footer .widget-column.footer-widget-2 {
-    float: right;
-    width: 54%;
-  }
-
-  /* line 102, scss/_media.scss */
-  .socialmedia-buttons.smw_center {
-    text-align-last: left;
-  }
+@font-face {
+  font-family: 'Cera Pro';
+  src: url("./fonts/CeraPro-Light.eot");
+  src: url("./fonts/CeraPro-Light.eot?#iefix") format("embedded-opentype"), url("./fonts/CeraPro-Light.woff") format("woff"), url("./fonts/CeraPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cera Pro';
+  src: url("./fonts/CeraPro-Regular.eot");
+  src: url("./fonts/CeraPro-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/CeraPro-Regular.woff") format("woff"), url("./fonts/CeraPro-Regular.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cera Pro';
+  src: url("./fonts/CeraPro-Medium.eot");
+  src: url("./fonts/CeraPro-Medium.eot?#iefix") format("embedded-opentype"), url("./fonts/CeraPro-Medium.woff") format("woff"), url("./fonts/CeraPro-Medium.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
 }
 /* line 1, scss/_general.scss */
+body {
+  font-family: 'Cera Pro';
+}
+
+/* line 5, scss/_general.scss */
+a:focus {
+  outline: 0;
+}
+
+/* line 9, scss/_general.scss */
 .page .panel-content .entry-title {
   display: none;
 }
 
-/* line 5, scss/_general.scss */
+/* line 13, scss/_general.scss */
 body.page:not(.twentyseventeen-front-page) .entry-title {
   display: none;
 }
 
-/* line 9, scss/_general.scss */
+/* line 17, scss/_general.scss */
 .site-navigation-fixed.navigation-top {
   position: static;
 }
 
-/* line 13, scss/_general.scss */
+/* line 21, scss/_general.scss */
 body:not(.portfolio_main) .site-branding {
   display: none;
 }
 
-/* line 17, scss/_general.scss */
-.wrap {
-  max-width: 100%;
-}
-
-/* line 21, scss/_general.scss */
+/* line 25, scss/_general.scss */
 .page.page-one-column:not(.twentyseventeen-front-page) #primary {
   max-width: 100%;
 }
 
-/* line 25, scss/_general.scss */
+/* line 29, scss/_general.scss */
+.wrap,
+.page-one-column .panel-content .wrap {
+  max-width: 100%;
+}
+
+/* line 34, scss/_general.scss */
 .navigation-top {
   border: none;
 }
 
-/* line 29, scss/_general.scss */
+/* line 38, scss/_general.scss */
+body.about-content .entry-content .has-text-align-left {
+  font-weight: 100;
+  max-width: 300px;
+  font-size: 16px;
+}
+
+/* line 44, scss/_general.scss */
 .widget a,
 .site-footer .widget-area a {
   box-shadow: none;
 }
-/* line 33, scss/_general.scss */
+/* line 48, scss/_general.scss */
 .widget a:hover,
 .site-footer .widget-area a:hover {
   box-shadow: none;
 }
 
-/* line 38, scss/_general.scss */
+/* line 53, scss/_general.scss */
 .widget a,
 .site-footer .widget-area a img {
   box-shadow: none;
 }
-/* line 42, scss/_general.scss */
+/* line 57, scss/_general.scss */
 .widget a:hover,
 .site-footer .widget-area a img:hover {
   box-shadow: none;
 }
 
-/* line 47, scss/_general.scss */
+/* line 62, scss/_general.scss */
 .site-footer .widget-area {
   padding: 0em;
 }
 
-/* line 51, scss/_general.scss */
+/* line 66, scss/_general.scss */
+body.about-content .entry-content p {
+  margin-top: 50px;
+  font-weight: 300;
+}
+
+/* line 71, scss/_general.scss */
 div.wpforms-container-full {
   margin: 0;
 }
 
-/* line 55, scss/_general.scss */
+/* line 75, scss/_general.scss */
 div.wpforms-container-full .wpforms-form .wpforms-field-label {
   font-weight: 100;
   letter-spacing: 2px !important;
   text-transform: uppercase;
 }
 
-/* line 61, scss/_general.scss */
+/* line 81, scss/_general.scss */
 div.wpforms-container-full .wpforms-form input[type=text],
 div.wpforms-container-full .wpforms-form input[type=email],
 div.wpforms-container-full .wpforms-form textarea {
@@ -282,7 +210,7 @@ div.wpforms-container-full .wpforms-form textarea {
   font-weight: 300;
 }
 
-/* line 69, scss/_general.scss */
+/* line 89, scss/_general.scss */
 div.wpforms-container-full .wpforms-form button[type=submit] {
   color: #ffff;
   background-color: #272727;
@@ -291,38 +219,165 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
   min-width: 150px;
 }
 
-@font-face {
-  font-family: 'TT Norms';
-  src: url("../fonts/TTNorms-Thin.eot");
-  src: url("../fonts/TTNorms-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/TTNorms-Thin.woff") format("woff"), url("../fonts/TTNorms-Thin.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
+/* line 97, scss/_general.scss */
+.js .menu-toggle {
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: 1px solid;
 }
-@font-face {
-  font-family: 'TT Norms';
-  src: url("../fonts/TTNorms-ExtraLight.eot");
-  src: url("../fonts/TTNorms-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/TTNorms-ExtraLight.woff") format("woff"), url("../fonts/TTNorms-ExtraLight.ttf") format("truetype");
+
+/* line 103, scss/_general.scss */
+.navigation-top a {
   font-weight: 300;
-  font-style: normal;
 }
-@font-face {
-  font-family: 'TT Norms';
-  src: url("../fonts/TTNorms-Regular.eot");
-  src: url("../fonts/TTNorms-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TTNorms-Regular.woff") format("woff"), url("../fonts/TTNorms-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
+
+/* line 108, scss/_general.scss */
+:not(.mejs-button) > button:hover,
+:not(.mejs-button) > button:focus {
+  background: none;
+  outline: 1px solid;
 }
-@font-face {
-  font-family: 'TT Norms';
-  src: url("../fonts/TTNorms-Medium.eot");
-  src: url("../fonts/TTNorms-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/TTNorms-Medium.woff") format("woff"), url("../fonts/TTNorms-Medium.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
+
+/* line 114, scss/_general.scss */
+.js .main-navigation.toggled-on > div > ul {
+  text-align: center;
 }
-@font-face {
-  font-family: 'Museo Slab 900';
-  src: url("../fonts/MuseoSlab-900.eot");
-  src: url("../fonts/MuseoSlab-900.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSlab-900.woff") format("woff"), url("../fonts/MuseoSlab-900.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+
+/* line 121, scss/_general.scss */
+#masthead .wrap {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
+
+/* line 128, scss/_general.scss */
+.site-header {
+  background-color: #fff;
+}
+
+/* line 132, scss/_general.scss */
+.admin-bar .site-navigation-fixed.navigation-top {
+  top: 30px;
+}
+
+/* line 136, scss/_general.scss */
+.main-navigation a {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+/* line 142, scss/_general.scss */
+body:not(.twentyseventeen-front-page) .entry-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 148, scss/_general.scss */
+.wp-image-93 {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+/* line 154, scss/_general.scss */
+body.about-content .entry-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* line 160, scss/_general.scss */
+body.about-content .entry-content .has-text-align-left {
+  text-align: center;
+}
+
+/* line 164, scss/_general.scss */
+body.contact-content .entry-content .wp-block-group {
+  text-align: center;
+}
+
+/* line 168, scss/_general.scss */
+.wpforms-container-full {
+  width: 40%;
+  max-width: 700px;
+}
+
+/* line 173, scss/_general.scss */
+.site-footer .widget-column.footer-widget-2 {
+  float: right;
+  width: 54%;
+}
+
+/* line 178, scss/_general.scss */
+.socialmedia-buttons.smw_center {
+  text-align-last: left;
+  font-size: 15px;
+}
+
+/* styles for browsers larger than 20em; */
+@media screen and (max-width: 320px) {
+  /* line 4, scss/_media.scss */
+  .custom-logo-link img {
+    display: none;
+  }
+
+  /* line 8, scss/_media.scss */
+  body:not(.title-tagline-hidden) .site-branding-text {
+    text-align: center;
+  }
+
+  /* line 12, scss/_media.scss */
+  .js .menu-toggle {
+    outline: none;
+  }
+
+  /* line 16, scss/_media.scss */
+  :not(.mejs-button) > button:hover,
+  :not(.mejs-button) > button:focus {
+    background: none;
+    outline: none;
+  }
+
+  /* line 22, scss/_media.scss */
+  body.about-content .entry-content p {
+    text-align: center;
+  }
+
+  /* line 26, scss/_media.scss */
+  .wp-image-93 {
+    display: none;
+  }
+}
+/* styles for browsers larger than 30em; */
+@media screen and (max-width: 576px) {
+  /* line 33, scss/_media.scss */
+  .page-one-column .panel-content .wrap {
+    max-width: 100%;
+  }
+
+  /* line 37, scss/_media.scss */
+  body:not(.portfolio_main) .site-branding {
+    display: none;
+  }
+
+  /* line 43, scss/_media.scss */
+  body.about-content .entry-content {
+    display: flex;
+    flex-flow: wrap-reverse;
+    justify-content: center;
+  }
+
+  /* line 49, scss/_media.scss */
+  .site-branding {
+    text-align: center;
+  }
+
+  /* line 53, scss/_media.scss */
+  .wp-image-93 {
+    display: none;
+  }
+}
+/* styles for browsers larger than 48em; */
