@@ -149,59 +149,132 @@ body:not(.portfolio_main) .site-branding {
   border: none;
 }
 
-/* line 38, scss/_general.scss */
+/* line 40, scss/_general.scss */
+body.about-content .entry-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* line 46, scss/_general.scss */
 body.about-content .entry-content .has-text-align-left {
   font-weight: 100;
   max-width: 300px;
   font-size: 16px;
 }
 
-/* line 44, scss/_general.scss */
-.widget a,
-.site-footer .widget-area a {
-  box-shadow: none;
-}
-/* line 48, scss/_general.scss */
-.widget a:hover,
-.site-footer .widget-area a:hover {
-  box-shadow: none;
-}
-
-/* line 53, scss/_general.scss */
-.widget a,
-.site-footer .widget-area a img {
-  box-shadow: none;
-}
-/* line 57, scss/_general.scss */
-.widget a:hover,
-.site-footer .widget-area a img:hover {
-  box-shadow: none;
-}
-
-/* line 62, scss/_general.scss */
-.site-footer .widget-area {
-  padding: 0em;
-}
-
-/* line 66, scss/_general.scss */
+/* line 52, scss/_general.scss */
 body.about-content .entry-content p {
   margin-top: 50px;
   font-weight: 300;
 }
 
-/* line 71, scss/_general.scss */
-div.wpforms-container-full {
-  margin: 0;
+/* line 57, scss/_general.scss */
+body.about-content .entry-content .has-text-align-left {
+  text-align: center;
 }
 
-/* line 75, scss/_general.scss */
+/* line 63, scss/_general.scss */
+.widget a,
+.site-footer .widget-area a {
+  box-shadow: none;
+}
+/* line 67, scss/_general.scss */
+.widget a:hover,
+.site-footer .widget-area a:hover {
+  box-shadow: none;
+}
+
+/* line 72, scss/_general.scss */
+.widget a,
+.site-footer .widget-area a img {
+  box-shadow: none;
+}
+/* line 76, scss/_general.scss */
+.widget a:hover,
+.site-footer .widget-area a img:hover {
+  box-shadow: none;
+}
+
+/* line 81, scss/_general.scss */
+.site-footer .widget-area {
+  padding: 0em;
+}
+
+/* line 85, scss/_general.scss */
+.site-footer .widget-column.footer-widget-2 {
+  float: right;
+  width: 54%;
+}
+
+/* line 90, scss/_general.scss */
+.socialmedia-buttons.smw_center {
+  text-align-last: left;
+  font-size: 15px;
+}
+
+/* line 98, scss/_general.scss */
+body.contact-content .entry-content .wp-block-group {
+  text-align: center;
+}
+/* line 101, scss/_general.scss */
+body.contact-content .entry-content .wp-block-group__inner-container h2 {
+  font-weight: 700;
+  color: #000;
+}
+/* line 106, scss/_general.scss */
+body.contact-content .entry-content .wp-block-group a {
+  box-shadow: none;
+}
+
+/* line 111, scss/_general.scss */
+.wp-block-quote {
+  text-align-last: right;
+}
+/* line 114, scss/_general.scss */
+.wp-block-quote__name {
+  font-weight: 300;
+  color: #272727;
+  margin-bottom: 10px;
+}
+/* line 120, scss/_general.scss */
+.wp-block-quote__instagram {
+  text-transform: uppercase;
+}
+/* line 124, scss/_general.scss */
+.wp-block-quote__tel, .wp-block-quote__email, .wp-block-quote__insta {
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #666;
+}
+/* line 133, scss/_general.scss */
+.wp-block-quote a:hover {
+  color: #733938;
+  font-weight: 300;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+/* line 140, scss/_general.scss */
+h2 {
+  margin-bottom: 10px;
+}
+
+/* line 145, scss/_general.scss */
+div.wpforms-container-full {
+  margin: 0;
+  width: 40%;
+  max-width: 700px;
+}
+
+/* line 152, scss/_general.scss */
 div.wpforms-container-full .wpforms-form .wpforms-field-label {
   font-weight: 100;
   letter-spacing: 2px !important;
   text-transform: uppercase;
 }
 
-/* line 81, scss/_general.scss */
+/* line 158, scss/_general.scss */
 div.wpforms-container-full .wpforms-form input[type=text],
 div.wpforms-container-full .wpforms-form input[type=email],
 div.wpforms-container-full .wpforms-form textarea {
@@ -210,7 +283,7 @@ div.wpforms-container-full .wpforms-form textarea {
   font-weight: 300;
 }
 
-/* line 89, scss/_general.scss */
+/* line 166, scss/_general.scss */
 div.wpforms-container-full .wpforms-form button[type=submit] {
   color: #ffff;
   background-color: #272727;
@@ -219,31 +292,30 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
   min-width: 150px;
 }
 
-/* line 97, scss/_general.scss */
+/* line 176, scss/_general.scss */
 .js .menu-toggle {
   text-transform: uppercase;
   font-weight: 700;
-  outline: 1px solid;
+  outline: none;
 }
 
-/* line 103, scss/_general.scss */
+/* line 183, scss/_general.scss */
 .navigation-top a {
   font-weight: 300;
 }
 
-/* line 108, scss/_general.scss */
+/* line 188, scss/_general.scss */
 :not(.mejs-button) > button:hover,
 :not(.mejs-button) > button:focus {
   background: none;
-  outline: 1px solid;
 }
 
-/* line 114, scss/_general.scss */
+/* line 193, scss/_general.scss */
 .js .main-navigation.toggled-on > div > ul {
   text-align: center;
 }
 
-/* line 121, scss/_general.scss */
+/* line 200, scss/_general.scss */
 #masthead .wrap {
   max-width: 100%;
   display: flex;
@@ -251,70 +323,74 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
   align-items: center;
 }
 
-/* line 128, scss/_general.scss */
-.site-header {
-  background-color: #fff;
+/* line 207, scss/_general.scss */
+.custom-header {
+  background-color: #fafafa;
 }
 
-/* line 132, scss/_general.scss */
+/* line 211, scss/_general.scss */
 .admin-bar .site-navigation-fixed.navigation-top {
   top: 30px;
 }
 
-/* line 136, scss/_general.scss */
+/* line 215, scss/_general.scss */
 .main-navigation a {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 11px;
 }
 
-/* line 142, scss/_general.scss */
+/* line 221, scss/_general.scss */
+.site-title,
+.site-title a {
+  color: #A19C9A;
+  font-weight: 100;
+}
+
+/* line 227, scss/_general.scss */
+.site-description {
+  padding-left: 5px;
+}
+
+/* line 231, scss/_general.scss */
+.site-header {
+  background-color: #fff;
+}
+
+/* line 235, scss/_general.scss */
+.main-navigation a {
+  position: relative;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+/* line 241, scss/_general.scss */
+.main-navigation a:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: #a19c9c;
+  left: 50%;
+  bottom: 0;
+  visibility: hidden;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+/* line 257, scss/_general.scss */
+.main-navigation a:hover:after {
+  visibility: visible;
+  width: 70%;
+}
+
+/* line 264, scss/_general.scss */
 body:not(.twentyseventeen-front-page) .entry-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-/* line 148, scss/_general.scss */
-.wp-image-93 {
-  width: 300px;
-  height: 300px;
-  border-radius: 100%;
-}
-
-/* line 154, scss/_general.scss */
-body.about-content .entry-content {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-/* line 160, scss/_general.scss */
-body.about-content .entry-content .has-text-align-left {
-  text-align: center;
-}
-
-/* line 164, scss/_general.scss */
-body.contact-content .entry-content .wp-block-group {
-  text-align: center;
-}
-
-/* line 168, scss/_general.scss */
-.wpforms-container-full {
-  width: 40%;
-  max-width: 700px;
-}
-
-/* line 173, scss/_general.scss */
-.site-footer .widget-column.footer-widget-2 {
-  float: right;
-  width: 54%;
-}
-
-/* line 178, scss/_general.scss */
-.socialmedia-buttons.smw_center {
-  text-align-last: left;
-  font-size: 15px;
 }
 
 /* styles for browsers larger than 20em; */
@@ -347,37 +423,85 @@ body.contact-content .entry-content .wp-block-group {
   }
 
   /* line 26, scss/_media.scss */
-  .wp-image-93 {
-    display: none;
+  body.contact-content .entry-content .wp-block-quote__insta {
+    color: #733938;
+    font-weight: 300;
   }
 }
 /* styles for browsers larger than 30em; */
 @media screen and (max-width: 576px) {
-  /* line 33, scss/_media.scss */
+  /* line 34, scss/_media.scss */
   .page-one-column .panel-content .wrap {
     max-width: 100%;
   }
 
-  /* line 37, scss/_media.scss */
+  /* line 38, scss/_media.scss */
   body:not(.portfolio_main) .site-branding {
     display: none;
   }
 
-  /* line 43, scss/_media.scss */
+  /* line 44, scss/_media.scss */
   body.about-content .entry-content {
     display: flex;
     flex-flow: wrap-reverse;
     justify-content: center;
   }
 
-  /* line 49, scss/_media.scss */
+  /* line 50, scss/_media.scss */
   .site-branding {
     text-align: center;
   }
 
-  /* line 53, scss/_media.scss */
-  .wp-image-93 {
-    display: none;
+  /* line 54, scss/_media.scss */
+  body.contact-content .entry-content .wp-block-quote__insta {
+    color: #733938;
+    font-weight: 300;
   }
 }
 /* styles for browsers larger than 48em; */
+@media screen and (max-width: 768px) {
+  /* line 63, scss/_media.scss */
+  #masthead .wrap {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* line 70, scss/_media.scss */
+  .js .menu-toggle {
+    font-weight: 300;
+  }
+
+  /* line 74, scss/_media.scss */
+  .main-navigation > div > ul {
+    border-top: none;
+  }
+  /* line 77, scss/_media.scss */
+  .main-navigation > div > ul li {
+    border-bottom: none;
+  }
+
+  /* line 82, scss/_media.scss */
+  .js body.about-content,
+  .contact-content .menu-toggle {
+    margin-top: 25px;
+  }
+
+  /* line 87, scss/_media.scss */
+  body.contact-content .entry-content {
+    display: block;
+  }
+
+  /* line 91, scss/_media.scss */
+  body.contact-content .entry-content > div.wpforms-container-full {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* line 96, scss/_media.scss */
+  body.contact-content .entry-content .wp-block-quote__insta {
+    color: #733938;
+    font-weight: 300;
+  }
+}
