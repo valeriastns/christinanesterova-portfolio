@@ -1,4 +1,3 @@
-/* styles for browsers larger than 20em; */
 @media screen and (max-width: 320px) {
 
     .custom-logo-link img {
@@ -29,7 +28,6 @@
     }
 }
 
-/* styles for browsers larger than 30em; */
 @media screen and (max-width: 576px) {
     .page-one-column .panel-content .wrap {
         max-width: 100%;
@@ -58,7 +56,6 @@
 
 }
 
-/* styles for browsers larger than 48em; */
 @media screen and (max-width: 768px) {
     #masthead .wrap {
         max-width: 100%;
@@ -96,5 +93,22 @@
     body.contact-content .entry-content .wp-block-quote__insta {
         color: #733938;
         font-weight: 300;
+    }
+
+    body.for-clients .entry-content .for_clients_block {
+        display: block;
+        margin-bottom: 50px;
+
+        .conditions_block {
+            margin-bottom: 40px;
+        }
+    }
+    .for_clients_additional {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .socialmedia-buttons.smw_center {
+        padding-left: 0;
     }
 }

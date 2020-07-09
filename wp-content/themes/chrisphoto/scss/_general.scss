@@ -35,165 +35,20 @@ body:not(.portfolio_main) .site-branding {
     border: none;
 }
 
-/// ABOUT
-
-body.about-content .entry-content {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-body.about-content .entry-content .has-text-align-left {
-    font-weight: 100;
-    max-width: 300px;
-    font-size: 16px;
-}
-
-body.about-content .entry-content p {
-    margin-top: 50px;
-    font-weight: 300;
-}
-
-body.about-content .entry-content .has-text-align-left {
-    text-align: center;
-}
-
-/// FOOTER 
-
-.widget a,
-.site-footer .widget-area a {
-    box-shadow: none;
-
-    &:hover {
-        box-shadow: none;
-    }
-}
-
-.widget a,
-.site-footer .widget-area a img {
-    box-shadow: none;
-
-    &:hover {
-        box-shadow: none;
-    }
-}
-
-.site-footer .widget-area {
-    padding: 0em;
-}
-
-.site-footer .widget-column.footer-widget-2 {
-    float: right;
-    width: 54%;
-}
-
-.socialmedia-buttons.smw_center {
-    text-align-last: left;
-    font-size: 15px;
+.modula-fancybox-caption__body {
+    display: none;
 }
 
 
-/// CONTACT
+///PORTFOLIO
 
-body.contact-content .entry-content .wp-block-group {
-    text-align: center;
-
-    &__inner-container h2 {
-        font-weight: 700;
-        color: #000;
-    }
-
-    a {
-        box-shadow: none;
-    }
+body.portfolio_main .site-content-contain .wrap {
+    padding: 0 0 25px 0;
 }
 
-.wp-block-quote {
-    text-align-last: right;
-
-    &__name {
-        font-weight: 300;
-        color: #272727;
-        margin-bottom: 10px;
-    }
-
-    &__instagram {
-        text-transform: uppercase;
-    }
-
-    &__tel,
-    &__email,
-    &__insta {
-        font-weight: 100;
-        text-transform: uppercase;
-        margin-bottom: 5px;
-        color: #666;
-    }
-
-    a:hover {
-        color: #733938;
-        font-weight: 300;
-        transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    }
+body.portfolio_main .site-content-contain .socialmedia-buttons {
+    margin-top: 40px;
 }
-
-h2 {
-    margin-bottom: 10px;
-}
-
-
-div.wpforms-container-full {
-    margin: 0;
-    width: 40%;
-    max-width: 700px;
-}
-
-
-div.wpforms-container-full .wpforms-form .wpforms-field-label {
-    font-weight: 100;
-    letter-spacing: 2px !important;
-    text-transform: uppercase;
-}
-
-div.wpforms-container-full .wpforms-form input[type=text],
-div.wpforms-container-full .wpforms-form input[type=email],
-div.wpforms-container-full .wpforms-form textarea {
-    background: #fafafa;
-    font-size: 16px;
-    font-weight: 300;
-}
-
-div.wpforms-container-full .wpforms-form button[type=submit] {
-    color: #ffff;
-    background-color: #272727;
-    font-weight: 300;
-    text-transform: uppercase;
-    min-width: 150px;
-}
-
-/// DROPDOWN MENU
-
-.js .menu-toggle {
-    text-transform: uppercase;
-    font-weight: 700;
-    outline: none;
-
-}
-
-.navigation-top a {
-    font-weight: 300;
-}
-
-
-:not(.mejs-button)>button:hover,
-:not(.mejs-button)>button:focus {
-    background: none;
-}
-
-.js .main-navigation.toggled-on>div>ul {
-    text-align: center;
-}
-
 
 /// HEADER
 
@@ -265,4 +120,218 @@ body:not(.twentyseventeen-front-page) .entry-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/// DROPDOWN MENU
+
+.js .menu-toggle {
+    text-transform: uppercase;
+    color: #767676;
+    font-size: 12px;
+    font-weight: 700;
+    outline: none;
+
+}
+
+.navigation-top a {
+    font-weight: 300;
+}
+
+
+:not(.mejs-button)>button:hover,
+:not(.mejs-button)>button:focus {
+    background: none;
+}
+
+.js .main-navigation.toggled-on>div>ul {
+    text-align: center;
+}
+
+/// FOOTER 
+
+.widget a,
+.site-footer .widget-area a {
+    box-shadow: none;
+
+    &:hover {
+        box-shadow: none;
+    }
+}
+
+.widget a,
+.site-footer .widget-area a img {
+    box-shadow: none;
+
+    &:hover {
+        box-shadow: none;
+    }
+}
+
+.site-footer .widget-area {
+    padding: 0em;
+}
+
+.site-footer .widget-column.footer-widget-2 {
+    float: right;
+    width: 54%;
+}
+
+.socialmedia-buttons.smw_center {
+    text-align-last: left;
+    font-size: 15px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+
+
+
+/// CONTACT
+body.contact-content .entry-content {
+    align-items: center;
+}
+
+body.contact-content .entry-content .wp-block-group {
+    text-align: center;
+
+    &__inner-container h2 {
+        font-weight: 700;
+        color: #000;
+    }
+
+    a {
+        box-shadow: none;
+    }
+}
+
+.wp-block-quote {
+    text-align-last: right;
+    margin-bottom: 65px;
+
+    &__name {
+        font-weight: 300;
+        color: #272727;
+        margin-bottom: 10px;
+    }
+
+    &__instagram {
+        text-transform: uppercase;
+    }
+
+    &__tel,
+    &__email,
+    &__insta {
+        font-weight: 100;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        color: #666;
+    }
+
+    a:hover {
+        color: #733938;
+        font-weight: 300;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    }
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+
+div.wpforms-container-full {
+    margin: 0;
+    width: 40%;
+    max-width: 700px;
+}
+
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+    font-weight: 100;
+    letter-spacing: 2px !important;
+    text-transform: uppercase;
+}
+
+.wpforms-confirmation-container-full {
+    background-color:#272727;
+    color: #ffff;
+    border:none;
+    margin: 0;
+}
+
+div.wpforms-container-full .wpforms-form input[type=text],
+div.wpforms-container-full .wpforms-form input[type=email],
+div.wpforms-container-full .wpforms-form textarea {
+    background: #fafafa;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+    color: #ffff;
+    background-color: #272727;
+    font-weight: 300;
+    text-transform: uppercase;
+    min-width: 150px;
+}
+
+///FOR CLIENTS
+body.for-clients .content-area .entry-header {
+    margin-bottom: 0;
+}
+
+body.for-clients .entry-content {
+    display: block;
+}
+
+body.for-clients .entry-content .for_clients_block {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.conditions_block {
+    &_title {
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    &_descr {
+        font-weight: 100;
+
+        p {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.for_clients_additional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/// ABOUT
+
+body.about-content .entry-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+body.about-content .entry-content .has-text-align-left {
+    font-weight: 100;
+    max-width: 300px;
+    font-size: 16px;
+}
+
+body.about-content .entry-content p {
+    margin-top: 50px;
+    font-weight: 300;
+}
+
+body.about-content .entry-content .has-text-align-left {
+    text-align: center;
 }

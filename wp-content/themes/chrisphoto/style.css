@@ -149,173 +149,22 @@ body:not(.portfolio_main) .site-branding {
   border: none;
 }
 
-/* line 40, scss/_general.scss */
-body.about-content .entry-content {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+/* line 38, scss/_general.scss */
+.modula-fancybox-caption__body {
+  display: none;
 }
 
-/* line 46, scss/_general.scss */
-body.about-content .entry-content .has-text-align-left {
-  font-weight: 100;
-  max-width: 300px;
-  font-size: 16px;
+/* line 45, scss/_general.scss */
+body.portfolio_main .site-content-contain .wrap {
+  padding: 0 0 25px 0;
 }
 
-/* line 52, scss/_general.scss */
-body.about-content .entry-content p {
-  margin-top: 50px;
-  font-weight: 300;
+/* line 49, scss/_general.scss */
+body.portfolio_main .site-content-contain .socialmedia-buttons {
+  margin-top: 40px;
 }
 
-/* line 57, scss/_general.scss */
-body.about-content .entry-content .has-text-align-left {
-  text-align: center;
-}
-
-/* line 63, scss/_general.scss */
-.widget a,
-.site-footer .widget-area a {
-  box-shadow: none;
-}
-/* line 67, scss/_general.scss */
-.widget a:hover,
-.site-footer .widget-area a:hover {
-  box-shadow: none;
-}
-
-/* line 72, scss/_general.scss */
-.widget a,
-.site-footer .widget-area a img {
-  box-shadow: none;
-}
-/* line 76, scss/_general.scss */
-.widget a:hover,
-.site-footer .widget-area a img:hover {
-  box-shadow: none;
-}
-
-/* line 81, scss/_general.scss */
-.site-footer .widget-area {
-  padding: 0em;
-}
-
-/* line 85, scss/_general.scss */
-.site-footer .widget-column.footer-widget-2 {
-  float: right;
-  width: 54%;
-}
-
-/* line 90, scss/_general.scss */
-.socialmedia-buttons.smw_center {
-  text-align-last: left;
-  font-size: 15px;
-}
-
-/* line 98, scss/_general.scss */
-body.contact-content .entry-content .wp-block-group {
-  text-align: center;
-}
-/* line 101, scss/_general.scss */
-body.contact-content .entry-content .wp-block-group__inner-container h2 {
-  font-weight: 700;
-  color: #000;
-}
-/* line 106, scss/_general.scss */
-body.contact-content .entry-content .wp-block-group a {
-  box-shadow: none;
-}
-
-/* line 111, scss/_general.scss */
-.wp-block-quote {
-  text-align-last: right;
-}
-/* line 114, scss/_general.scss */
-.wp-block-quote__name {
-  font-weight: 300;
-  color: #272727;
-  margin-bottom: 10px;
-}
-/* line 120, scss/_general.scss */
-.wp-block-quote__instagram {
-  text-transform: uppercase;
-}
-/* line 124, scss/_general.scss */
-.wp-block-quote__tel, .wp-block-quote__email, .wp-block-quote__insta {
-  font-weight: 100;
-  text-transform: uppercase;
-  margin-bottom: 5px;
-  color: #666;
-}
-/* line 133, scss/_general.scss */
-.wp-block-quote a:hover {
-  color: #733938;
-  font-weight: 300;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-}
-
-/* line 140, scss/_general.scss */
-h2 {
-  margin-bottom: 10px;
-}
-
-/* line 145, scss/_general.scss */
-div.wpforms-container-full {
-  margin: 0;
-  width: 40%;
-  max-width: 700px;
-}
-
-/* line 152, scss/_general.scss */
-div.wpforms-container-full .wpforms-form .wpforms-field-label {
-  font-weight: 100;
-  letter-spacing: 2px !important;
-  text-transform: uppercase;
-}
-
-/* line 158, scss/_general.scss */
-div.wpforms-container-full .wpforms-form input[type=text],
-div.wpforms-container-full .wpforms-form input[type=email],
-div.wpforms-container-full .wpforms-form textarea {
-  background: #fafafa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-/* line 166, scss/_general.scss */
-div.wpforms-container-full .wpforms-form button[type=submit] {
-  color: #ffff;
-  background-color: #272727;
-  font-weight: 300;
-  text-transform: uppercase;
-  min-width: 150px;
-}
-
-/* line 176, scss/_general.scss */
-.js .menu-toggle {
-  text-transform: uppercase;
-  font-weight: 700;
-  outline: none;
-}
-
-/* line 183, scss/_general.scss */
-.navigation-top a {
-  font-weight: 300;
-}
-
-/* line 188, scss/_general.scss */
-:not(.mejs-button) > button:hover,
-:not(.mejs-button) > button:focus {
-  background: none;
-}
-
-/* line 193, scss/_general.scss */
-.js .main-navigation.toggled-on > div > ul {
-  text-align: center;
-}
-
-/* line 200, scss/_general.scss */
+/* line 55, scss/_general.scss */
 #masthead .wrap {
   max-width: 100%;
   display: flex;
@@ -323,48 +172,48 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
   align-items: center;
 }
 
-/* line 207, scss/_general.scss */
+/* line 62, scss/_general.scss */
 .custom-header {
   background-color: #fafafa;
 }
 
-/* line 211, scss/_general.scss */
+/* line 66, scss/_general.scss */
 .admin-bar .site-navigation-fixed.navigation-top {
   top: 30px;
 }
 
-/* line 215, scss/_general.scss */
+/* line 70, scss/_general.scss */
 .main-navigation a {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 11px;
 }
 
-/* line 221, scss/_general.scss */
+/* line 76, scss/_general.scss */
 .site-title,
 .site-title a {
   color: #A19C9A;
   font-weight: 100;
 }
 
-/* line 227, scss/_general.scss */
+/* line 82, scss/_general.scss */
 .site-description {
   padding-left: 5px;
 }
 
-/* line 231, scss/_general.scss */
+/* line 86, scss/_general.scss */
 .site-header {
   background-color: #fff;
 }
 
-/* line 235, scss/_general.scss */
+/* line 90, scss/_general.scss */
 .main-navigation a {
   position: relative;
   text-decoration: none;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 241, scss/_general.scss */
+/* line 96, scss/_general.scss */
 .main-navigation a:after {
   content: "";
   position: absolute;
@@ -380,87 +229,307 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
   -webkit-transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
 }
-/* line 257, scss/_general.scss */
+/* line 112, scss/_general.scss */
 .main-navigation a:hover:after {
   visibility: visible;
   width: 70%;
 }
 
-/* line 264, scss/_general.scss */
+/* line 119, scss/_general.scss */
 body:not(.twentyseventeen-front-page) .entry-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* styles for browsers larger than 20em; */
+/* line 127, scss/_general.scss */
+.js .menu-toggle {
+  text-transform: uppercase;
+  color: #767676;
+  font-size: 12px;
+  font-weight: 700;
+  outline: none;
+}
+
+/* line 136, scss/_general.scss */
+.navigation-top a {
+  font-weight: 300;
+}
+
+/* line 141, scss/_general.scss */
+:not(.mejs-button) > button:hover,
+:not(.mejs-button) > button:focus {
+  background: none;
+}
+
+/* line 146, scss/_general.scss */
+.js .main-navigation.toggled-on > div > ul {
+  text-align: center;
+}
+
+/* line 152, scss/_general.scss */
+.widget a,
+.site-footer .widget-area a {
+  box-shadow: none;
+}
+/* line 156, scss/_general.scss */
+.widget a:hover,
+.site-footer .widget-area a:hover {
+  box-shadow: none;
+}
+
+/* line 161, scss/_general.scss */
+.widget a,
+.site-footer .widget-area a img {
+  box-shadow: none;
+}
+/* line 165, scss/_general.scss */
+.widget a:hover,
+.site-footer .widget-area a img:hover {
+  box-shadow: none;
+}
+
+/* line 170, scss/_general.scss */
+.site-footer .widget-area {
+  padding: 0em;
+}
+
+/* line 174, scss/_general.scss */
+.site-footer .widget-column.footer-widget-2 {
+  float: right;
+  width: 54%;
+}
+
+/* line 179, scss/_general.scss */
+.socialmedia-buttons.smw_center {
+  text-align-last: left;
+  font-size: 15px;
+  padding-left: 40px;
+  text-align: left;
+}
+
+/* line 190, scss/_general.scss */
+body.contact-content .entry-content {
+  align-items: center;
+}
+
+/* line 194, scss/_general.scss */
+body.contact-content .entry-content .wp-block-group {
+  text-align: center;
+}
+/* line 197, scss/_general.scss */
+body.contact-content .entry-content .wp-block-group__inner-container h2 {
+  font-weight: 700;
+  color: #000;
+}
+/* line 202, scss/_general.scss */
+body.contact-content .entry-content .wp-block-group a {
+  box-shadow: none;
+}
+
+/* line 207, scss/_general.scss */
+.wp-block-quote {
+  text-align-last: right;
+  margin-bottom: 65px;
+}
+/* line 211, scss/_general.scss */
+.wp-block-quote__name {
+  font-weight: 300;
+  color: #272727;
+  margin-bottom: 10px;
+}
+/* line 217, scss/_general.scss */
+.wp-block-quote__instagram {
+  text-transform: uppercase;
+}
+/* line 221, scss/_general.scss */
+.wp-block-quote__tel, .wp-block-quote__email, .wp-block-quote__insta {
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #666;
+}
+/* line 230, scss/_general.scss */
+.wp-block-quote a:hover {
+  color: #733938;
+  font-weight: 300;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+/* line 237, scss/_general.scss */
+h2 {
+  margin-bottom: 10px;
+}
+
+/* line 242, scss/_general.scss */
+div.wpforms-container-full {
+  margin: 0;
+  width: 40%;
+  max-width: 700px;
+}
+
+/* line 249, scss/_general.scss */
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+  font-weight: 100;
+  letter-spacing: 2px !important;
+  text-transform: uppercase;
+}
+
+/* line 255, scss/_general.scss */
+.wpforms-confirmation-container-full {
+  background-color: #272727;
+  color: #ffff;
+  border: none;
+  margin: 0;
+}
+
+/* line 262, scss/_general.scss */
+div.wpforms-container-full .wpforms-form input[type=text],
+div.wpforms-container-full .wpforms-form input[type=email],
+div.wpforms-container-full .wpforms-form textarea {
+  background: #fafafa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* line 270, scss/_general.scss */
+div.wpforms-container-full .wpforms-form button[type=submit] {
+  color: #ffff;
+  background-color: #272727;
+  font-weight: 300;
+  text-transform: uppercase;
+  min-width: 150px;
+}
+
+/* line 279, scss/_general.scss */
+body.for-clients .content-area .entry-header {
+  margin-bottom: 0;
+}
+
+/* line 283, scss/_general.scss */
+body.for-clients .entry-content {
+  display: block;
+}
+
+/* line 287, scss/_general.scss */
+body.for-clients .entry-content .for_clients_block {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+/* line 294, scss/_general.scss */
+.conditions_block_title {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* line 300, scss/_general.scss */
+.conditions_block_descr {
+  font-weight: 100;
+}
+/* line 303, scss/_general.scss */
+.conditions_block_descr p {
+  margin-bottom: 10px;
+}
+
+/* line 309, scss/_general.scss */
+.for_clients_additional {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 318, scss/_general.scss */
+body.about-content .entry-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* line 324, scss/_general.scss */
+body.about-content .entry-content .has-text-align-left {
+  font-weight: 100;
+  max-width: 300px;
+  font-size: 16px;
+}
+
+/* line 330, scss/_general.scss */
+body.about-content .entry-content p {
+  margin-top: 50px;
+  font-weight: 300;
+}
+
+/* line 335, scss/_general.scss */
+body.about-content .entry-content .has-text-align-left {
+  text-align: center;
+}
+
 @media screen and (max-width: 320px) {
-  /* line 4, scss/_media.scss */
+  /* line 3, scss/_media.scss */
   .custom-logo-link img {
     display: none;
   }
 
-  /* line 8, scss/_media.scss */
+  /* line 7, scss/_media.scss */
   body:not(.title-tagline-hidden) .site-branding-text {
     text-align: center;
   }
 
-  /* line 12, scss/_media.scss */
+  /* line 11, scss/_media.scss */
   .js .menu-toggle {
     outline: none;
   }
 
-  /* line 16, scss/_media.scss */
+  /* line 15, scss/_media.scss */
   :not(.mejs-button) > button:hover,
   :not(.mejs-button) > button:focus {
     background: none;
     outline: none;
   }
 
-  /* line 22, scss/_media.scss */
+  /* line 21, scss/_media.scss */
   body.about-content .entry-content p {
     text-align: center;
   }
 
-  /* line 26, scss/_media.scss */
+  /* line 25, scss/_media.scss */
   body.contact-content .entry-content .wp-block-quote__insta {
     color: #733938;
     font-weight: 300;
   }
 }
-/* styles for browsers larger than 30em; */
 @media screen and (max-width: 576px) {
-  /* line 34, scss/_media.scss */
+  /* line 32, scss/_media.scss */
   .page-one-column .panel-content .wrap {
     max-width: 100%;
   }
 
-  /* line 38, scss/_media.scss */
+  /* line 36, scss/_media.scss */
   body:not(.portfolio_main) .site-branding {
     display: none;
   }
 
-  /* line 44, scss/_media.scss */
+  /* line 42, scss/_media.scss */
   body.about-content .entry-content {
     display: flex;
     flex-flow: wrap-reverse;
     justify-content: center;
   }
 
-  /* line 50, scss/_media.scss */
+  /* line 48, scss/_media.scss */
   .site-branding {
     text-align: center;
   }
 
-  /* line 54, scss/_media.scss */
+  /* line 52, scss/_media.scss */
   body.contact-content .entry-content .wp-block-quote__insta {
     color: #733938;
     font-weight: 300;
   }
 }
-/* styles for browsers larger than 48em; */
 @media screen and (max-width: 768px) {
-  /* line 63, scss/_media.scss */
+  /* line 60, scss/_media.scss */
   #masthead .wrap {
     max-width: 100%;
     display: flex;
@@ -468,40 +537,61 @@ body:not(.twentyseventeen-front-page) .entry-content {
     align-items: center;
   }
 
-  /* line 70, scss/_media.scss */
+  /* line 67, scss/_media.scss */
   .js .menu-toggle {
     font-weight: 300;
   }
 
-  /* line 74, scss/_media.scss */
+  /* line 71, scss/_media.scss */
   .main-navigation > div > ul {
     border-top: none;
   }
-  /* line 77, scss/_media.scss */
+  /* line 74, scss/_media.scss */
   .main-navigation > div > ul li {
     border-bottom: none;
   }
 
-  /* line 82, scss/_media.scss */
+  /* line 79, scss/_media.scss */
   .js body.about-content,
   .contact-content .menu-toggle {
     margin-top: 25px;
   }
 
-  /* line 87, scss/_media.scss */
+  /* line 84, scss/_media.scss */
   body.contact-content .entry-content {
     display: block;
   }
 
-  /* line 91, scss/_media.scss */
+  /* line 88, scss/_media.scss */
   body.contact-content .entry-content > div.wpforms-container-full {
     width: 100%;
     margin-bottom: 30px;
   }
 
-  /* line 96, scss/_media.scss */
+  /* line 93, scss/_media.scss */
   body.contact-content .entry-content .wp-block-quote__insta {
     color: #733938;
     font-weight: 300;
+  }
+
+  /* line 98, scss/_media.scss */
+  body.for-clients .entry-content .for_clients_block {
+    display: block;
+    margin-bottom: 50px;
+  }
+  /* line 102, scss/_media.scss */
+  body.for-clients .entry-content .for_clients_block .conditions_block {
+    margin-bottom: 40px;
+  }
+
+  /* line 106, scss/_media.scss */
+  .for_clients_additional {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  /* line 111, scss/_media.scss */
+  .socialmedia-buttons.smw_center {
+    padding-left: 0;
   }
 }
