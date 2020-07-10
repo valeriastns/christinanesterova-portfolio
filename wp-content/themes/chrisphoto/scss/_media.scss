@@ -41,7 +41,7 @@
 
     body.about-content .entry-content {
         display: flex;
-        flex-flow: wrap-reverse;
+        flex-direction: column;
         justify-content: center;
     }
 
@@ -66,10 +66,15 @@
 
     .js .menu-toggle {
         font-weight: 300;
+        font-size: 20px;
+    } 
+    .navigation-top a {
+        font-size: 20px;
     }
 
     .main-navigation>div>ul {
         border-top: none;
+        // font-size: 20;
 
         li {
             border-bottom: none;
@@ -77,7 +82,8 @@
     }
 
     .js body.about-content,
-    .contact-content .menu-toggle {
+    .contact-content,
+    .for-clients .menu-toggle {
         margin-top: 25px;
     }
 
@@ -89,7 +95,11 @@
         width: 100%;
         margin-bottom: 30px;
     }
-
+    body.contact-content .entry-content .wp-block-quote {
+        text-align-last: left;
+        -webkit-text-align-last: left;
+        text-align: left;
+    }
     body.contact-content .entry-content .wp-block-quote__insta {
         color: #733938;
         font-weight: 300;
