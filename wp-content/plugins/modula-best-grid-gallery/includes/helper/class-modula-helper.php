@@ -180,10 +180,10 @@ class Modula_Helper {
 	public static function lightbox_default_options() {
 
 		$fancybox_options = array(
-			'loop'            => false,
+			'loop'            => true,
 			'arrows'          => false,
 			'toolbar'         => true,
-			'keyboard'        => false,
+			'keyboard'        => true,
 			'wheel'           => false,
 			'buttons'         => array(
 				'close',
